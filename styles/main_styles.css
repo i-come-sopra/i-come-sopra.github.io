@@ -367,7 +367,7 @@ section
 	content: '';
 	background-color: #2ac275;
 	background-image: linear-gradient(to right, #eeff2d, #2ac275);
-	background: #2ac275;	
+	background: #2ac275;
 	background: linear-gradient(to right, #eeff2d, #2ac275);
 }
 .header_content
