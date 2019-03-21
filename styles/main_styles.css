@@ -373,7 +373,7 @@ section
 .header_content
 {
 	width: calc(100% + 30px);
-	left: -20px;
+	left: -250px;
 	height: 134px;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
