@@ -233,6 +233,46 @@ section
 {
 	height:110vh;
 }
+.row_1 img
+{
+	height:300px;
+	width:auto;
+	margin-right:10%;
+}
+.sadf
+{
+	flex: 1;
+	max-width: 100%;
+	width:100%;
+}
+.row_1
+{
+	margin-right:5%;
+}
+.row_2 img
+{
+	height:300px;
+	width:auto;
+	margin-right:6%;
+}
+.row_2
+{
+	margin-right:5%;
+}
+.row_2 p
+{
+	margin-bottom:100px;
+}
+.row_3 img
+{
+	height:300px;
+	width:auto;
+	margin-right:5%;
+}
+.row_3
+{
+	margin-right:5%;
+}
 .clear
 {
 	clear: both;
