@@ -1713,17 +1713,14 @@ section
 }
 .news_row
 {
-	margin-top: 68px;
 }
 .news_post.image_top .news_post_content
 {
-	padding-top: 41px;
 	padding-bottom: 47px;
 	padding-right: 15px;
 }
 .news_post.image_bottom .news_post_content
 {
-	padding-top: 42px;
 	padding-bottom: 40px;
 	padding-right: 15px;
 }
@@ -1866,8 +1863,6 @@ section
 }
 .footer_content
 {
-	padding-top: 76px;
-	padding-bottom: 74px;
 }
 .footer .logo
 {
