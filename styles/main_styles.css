@@ -60,6 +60,11 @@ ul
 	margin-bottom: 0px;
 	position: absolute;
 	left: 420px;
+	top: -70px;
+}
+li
+{
+	width:350px;
 }
 p
 {
@@ -751,7 +756,7 @@ section
 	font-size: 110px;
 	font-weight: 600;
 	color: #ffffff;
-	padding-top:40px;
+	padding-top: 40px;
 	text-transform: uppercase;
 }
 .home_title h1 span
@@ -763,6 +768,15 @@ section
 	margin-top: 40px;
 	padding-left: 150px;
 	padding-right: 150px;
+}
+.northwestern_logo img
+{
+	max-width: 10%;
+	left: 1500px;
+	position: relative;
+	top: 0px;
+	padding-top: 1.7%;
+	padding-bottom: 1.7%;
 }
 .tickets_form
 {
@@ -1508,6 +1522,7 @@ section
 	-ms-transform: translateX(-67px);
 	-o-transform: translateX(-67px);
 	transform: translateX(-67px);
+	z-index: -1;
 }
 .app_content
 {
@@ -1730,8 +1745,9 @@ section
 .newsletter
 {
 	background: #ffffff;
-	padding-top: 7px;
-	padding-bottom: 66px;
+	padding-top: 17px;
+	padding-bottom: 16px;
+
 }
 .newsletter_text
 {
