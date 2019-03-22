@@ -769,15 +769,7 @@ section
 	padding-left: 150px;
 	padding-right: 150px;
 }
-.northwestern_logo img
-{
-	max-width: 10%;
-	left: 1500px;
-	position: relative;
-	top: 0px;
-	padding-top: 1.7%;
-	padding-bottom: 1.7%;
-}
+
 .tickets_form
 {
 	display: block;
@@ -1514,9 +1506,14 @@ section
 	background: #eef2f6;
 	padding-bottom: 11px;
 }
-.s
+.northwestern_logo
 {
-
+	max-width: 10%;
+	left: 1500px;
+	position: relative;
+	top: 0px;
+	padding-top: 1.7%;
+	padding-bottom: 1.7%;
 }
 .app_image
 {
@@ -1580,6 +1577,10 @@ section
 	padding-right: 15px;
 	margin-bottom: 30px;
 }
+#header img
+{
+
+}
 .featured_list ul li > div:first-of-type
 {
 	position: absolute;
@@ -1619,6 +1620,24 @@ section
 .featured_list .jp-playlist > ul > li > div:first-of-type a:hover
 {
 	color: #2e9e7a;
+}
+.contactus
+{
+	text-align:center;
+}
+#navbar
+{
+	width: 350px;
+	top:25%;
+	left: 42%;
+}
+#navbar li
+{
+	width: 400px;
+}
+.names li
+{
+	width: 350px;
 }
 .featured_album
 {
