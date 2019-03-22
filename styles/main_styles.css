@@ -354,6 +354,7 @@ section
 .header
 {
 	position: fixed;
+	height: 80px;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -380,7 +381,7 @@ section
 .header_content
 {
 	width: calc(100% + 30px);
-	left: -250px;
+	/* left: -250px; */
 	height: 134px;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -394,9 +395,11 @@ section
 }
 .logo
 {
-	position: absolute;
+	position: fixed;
 	left: 0;
-	top: 46%;
+	/* right: auto; */
+	top: 45px;
+	padding-left: 40px;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -444,11 +447,13 @@ section
 }
 .main_nav
 {
+	position:fixed;
+	top:100px;
 	-webkit-transform: translateY(5px);
 	-moz-transform: translateY(5px);
 	-ms-transform: translateY(5px);
 	-o-transform: translateY(5px);
-	transform: translateY(5px);
+	/* transform: translateY(5px); */
 }
 .main_nav ul li
 {
@@ -1502,18 +1507,19 @@ section
 
 .app
 {
-	padding-top: 12px;
+	padding-top: 120px;
 	background: #eef2f6;
 	padding-bottom: 11px;
 }
 .northwestern_logo
 {
-	max-width: 10%;
-	left: 1500px;
-	position: relative;
-	top: 0px;
-	padding-top: 1.7%;
-	padding-bottom: 1.7%;
+	max-width: 150px;
+	right: 0px;
+	padding-right: 40px;
+	position: fixed;
+	top: 30px;
+	/* padding-top: 1.7%; */
+	/* padding-bottom: 1.7%; */
 }
 .app_image
 {
@@ -1628,8 +1634,8 @@ section
 #navbar
 {
 	width: 350px;
-	top:25%;
-	left: 42%;
+	left: -250px;
+	position: fixed;
 }
 #navbar li
 {
