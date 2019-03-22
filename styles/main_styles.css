@@ -703,7 +703,7 @@ section
 
 .home
 {
-	height: 863px;
+	height: 363px;
 	border-bottom: solid 2px #ffffff;
 }
 .home_slider_container
@@ -735,7 +735,7 @@ section
 	position: absolute;
 	top: 0;
 	right: -72px;
-	width: 90px;
+	width: 0;
 	height: 90px;
 	border-radius: 50%;
 	background: #e830fe;
@@ -1495,9 +1495,9 @@ section
 
 .app
 {
-	padding-top: 123px;
+	padding-top: 12px;
 	background: #eef2f6;
-	padding-bottom: 117px;
+	padding-bottom: 11px;
 }
 .app_image
 {
@@ -1651,8 +1651,8 @@ section
 
 .news
 {
-	padding-top: 116px;
-	padding-bottom: 124px;
+	padding-top: 11px;
+	padding-bottom: 12px;
 	background-color: #3b125d;
 	background-image: linear-gradient(to right, #2457d7, #3b125d);
 	background: #3b125d;
@@ -1729,8 +1729,8 @@ section
 .newsletter
 {
 	background: #ffffff;
-	padding-top: 77px;
-	padding-bottom: 67px;
+	padding-top: 7px;
+	padding-bottom: 66px;
 }
 .newsletter_text
 {
