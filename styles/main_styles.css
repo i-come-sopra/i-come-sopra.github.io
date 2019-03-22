@@ -58,6 +58,8 @@ ul
 {
 	list-style: none;
 	margin-bottom: 0px;
+	position: absolute;
+	left: 420px;
 }
 p
 {
