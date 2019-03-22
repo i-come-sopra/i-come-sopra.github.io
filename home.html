@@ -298,21 +298,43 @@
 				<div class="col">
 					<h1 class ="quiz_section">Quiz</h1>
 					<p>Here is an example audio clip from the data set. Which category from above does this clip sound the most like?</p>
-					<div class = "buttons">
-						<div class = "button">
-							<button class="aaron_button index_button"><a href="home.html"><span>Random</span></a></button>
-						</div>
-						<div class = "button">
-							<button class="aaron_button index_button"><a href="home.html"><span>LSTM</span></a></button>
-						</div>
-						<div class = "button">
-							<button class="aaron_button index_button"><a href="home.html"><span>InKey</span></a></button>
-						</div>
+					<div class = "quizer">
+					<audio controls>
+						<source src="./audioFiles/quiz_quizer.mp3" type="audio/mpeg">
+							Your browser does not support the audio element.
+					</audio>
 				</div>
-				<audio controls>
-					<source src="./audioFiles/quiz_audio.mp3" type="audio/mpeg">
-						Your browser does not support the audio element.
-				</audio>
+					<div class = "quized">
+						<div>
+							<audio controls>
+								<source src="./audioFiles/random-outputs/random-output4.mp3" type="audio/mpeg">
+									Your browser does not support the audio element.
+							</audio>
+							<div>
+	            	<button class="aaron_button_quized"onclick="pickedRandom()"><a href="home.html"><span>A</span></a></button>
+	            </div>
+						</div>
+						<div>
+							<audio controls>
+								<source src="./audioFiles/lstm_outputs/1-output_2.mp3" type="audio/mpeg">
+									Your browser does not support the audio element.
+							</audio>
+							<div>
+	            	<button class="aaron_button_quized"onclick="pickedUs()"><span>B</span></a></button>
+	            </div>
+						</div>
+						<div>
+							<audio controls>
+								<source src="./audioFiles/inKey-outputs/inKey-output1.mp3" type="audio/mpeg">
+									Your browser does not support the audio element.
+							</audio>
+							<div>
+	            	<button class="aaron_button_quized" onclick="pickedInKey()"><span>C</span></a></button>
+	            </div>
+						</div>
+					</div>
+
+					<p id = "picked">You picked: </p>
 				</div>
 			</div>
 		</div>
@@ -385,22 +407,6 @@
 
 	</footer>
 </div>
-
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="styles/bootstrap-4.1.2/popper.js"></script>
-<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
-<script src="plugins/jPlayer/jquery.jplayer.min.js"></script>
-<script src="plugins/jPlayer/jplayer.playlist.min.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/progressbar/progressbar.min.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
-<script src="js/custom.js"></script>
+<script src=./aaronScript.js></script>
 </body>
 </html>

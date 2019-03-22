@@ -172,6 +172,15 @@ h6::selection
 	position:relative;
 	padding-left:0px;
 }
+.quizer
+{
+	left: 35%;
+}
+.quized
+{
+	left:8%;
+	display: flex;
+}
 .aaron_button
 {
 	background: linear-gradient(to right, #2ac275, #cbdc0b, #2ac275);
@@ -184,6 +193,29 @@ h6::selection
 	padding: 5%;
 	padding-bottom:10%;
 	padding-top: 10%;
+}
+.aaron_button_quized
+{
+	background: linear-gradient(to right, #2ac275, #cbdc0b, #2ac275);
+	border:0px;
+	border-radius: 20px;
+	width:140px;
+	color:white;
+	height:200%;
+	width:200%;
+	padding: 5%;
+	padding-bottom:10%;
+	padding-top: 10%;
+	width:60%;
+	margin-left:25%;
+}
+#picked
+{
+	text-align: center;
+}
+.aaron_button_quized a
+{
+	color:white;
 }
 .aaron_button a
 {
