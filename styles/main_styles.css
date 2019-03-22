@@ -185,6 +185,21 @@ h6::selection
 {
 	color:white;
 }
+.quiz
+{
+	position: relative;
+	left: 50%;
+	text-align: center;
+}
+.buttons
+{
+	display: flex;
+}
+.button
+{
+	position:relative;
+	margin-left: 5%;
+}
 .index_dec
 {
 	position: absolute;
@@ -231,7 +246,7 @@ section
 }
 #information
 {
-	height:110vh;
+	height:115vh;
 }
 .row_1 img
 {
@@ -1661,8 +1676,8 @@ section
 .featured
 {
 	background: #eef2f6;
-	padding-top: 122px;
-	padding-bottom: 89px;
+	padding-top: 12px;
+	padding-bottom: 20px;
 }
 .featured_row
 {
