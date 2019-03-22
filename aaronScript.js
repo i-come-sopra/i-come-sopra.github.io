@@ -9,5 +9,5 @@ function pickedRandom() {
 }
 
 function pickedUs() {
-  document.getElementById("picked").innerHTML = "You picked the our output!! :)";
+  document.getElementById("picked").innerHTML = "You picked our output!! :)";
 }
